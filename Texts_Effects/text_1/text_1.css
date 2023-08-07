@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+
+.box{
+    height: 100vh;
+    background: url("./1669694329_3-53.jpg") no-repeat center/cover;
+}
+
+h1{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    font-size:10rem;
+    text-transform:uppercase;
+    text-align: center;
+    color:#fff;
+    margin: 0;
+    padding: 0;
+    mix-blend-mode:overlay;
+    text-shadow:0 10px 20px rgba(0,0,0,1);
+    box-shadow:0 10px 20px rgba(0,0,0,1);
+    background: rgba(0,0,0,.8);
+}

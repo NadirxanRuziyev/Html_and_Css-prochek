@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+
+.box{
+    display:flex;
+    justify-content:center;
+    background:url("./1669694329_3-53.jpg") no-repeat fixed;
+    height: 200vh;
+    background-clip:text;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+h1{
+    margin-top:445px;
+    font-size:10rem;
+    text-transform:uppercase;
+    text-align:center;
+}
